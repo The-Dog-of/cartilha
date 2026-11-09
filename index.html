@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102b35" />
+    <meta
+      name="description"
+      content="Cartilha rápida de segurança, carga, trânsito, meio ambiente e procedimentos para caminhoneiros."
+    />
+    <title>Cartilha CARGA Segura | Caminhoneiro</title>
+    <link rel="icon" href="assets/carga-icon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="reading-track" aria-hidden="true">
+      <span id="reading-progress"></span>
+    </div>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="CARGA Segura, início">
+        <span class="brand-mark" aria-hidden="true"
+          ><span></span><span></span
+        ></span>
+        <span class="brand-copy"
+          ><strong>CARGA</strong><small>SEGURANÇA NA ESTRADA</small></span
+        >
+      </a>
+      <div class="topbar-meta">
+        <span class="edition-dot" aria-hidden="true"></span
+        ><span>Cartilha do caminhoneiro</span>
+      </div>
+      <button
+        class="icon-button print-button"
+        type="button"
+        aria-label="Imprimir ou salvar a cartilha em PDF"
+        title="Imprimir / salvar PDF"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"
+          />
+        </svg>
+        <span>Salvar PDF</span>
+      </button>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span> CUIDADO EM CADA QUILÔMETRO
+          </p>
+          <h1 id="hero-title">
+            Segurança<br /><em>que chega<br />junto.</em>
+          </h1>
+          <p class="hero-intro">
+            Um guia direto para proteger você, sua carga e todos que dividem a
+            estrada com você.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#indice"
+              >Começar a leitura <span aria-hidden="true">↓</span></a
+            >
+            <span class="read-time">Leitura rápida · 6 temas</span>
+          </div>
+          <div class="hero-note">
+            <span class="note-symbol" aria-hidden="true">i</span>
+            <p>
+              Na dúvida, pare em segurança e siga o procedimento da sua empresa
+              e da unidade.
+            </p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            src="assets/capa-caminhao.jpeg"
+            alt="Caminhão basculante amarelo em uma operação de transporte de carga"
+          />
+          <div class="visual-caption">
+            <span class="caption-kicker">CARGA SEGURA</span
+            ><strong>Conheça. Respeite.<br />Proteja. Garanta.</strong
+            ><span class="caption-route"
+              >SUA VIDA VALE MAIS <span aria-hidden="true">↗</span></span
+            >
+          </div>
+          <div class="hero-number" aria-hidden="true">01<span>/06</span></div>
+        </div>
+        <div class="hero-bottom">
+          <span>01 — ANTES DE PARTIR</span><span class="hero-bottom-line"></span
+          ><span>GUIA DE BOLSO DIGITAL</span>
+        </div>
+      </section>
+
+      <section class="guide-layout" aria-label="Conteúdo da cartilha">
+        <aside
+          class="contents-panel"
+          id="indice"
+          aria-labelledby="contents-title"
+        >
+          <div class="contents-heading">
+            <span class="section-kicker">NO SEU RITMO</span>
+            <h2 id="contents-title">Índice</h2>
+            <p>Toque em um tema para ir direto.</p>
+          </div>
+          <nav class="contents-nav" aria-label="Índice da cartilha">
+            <a class="contents-link is-active" href="#procedimentos"
+              ><span class="contents-num">01</span><span>Antes de partir</span
+              ><span class="contents-arrow" aria-hidden="true">↗</span></a
+            >
+            <a class="contents-link" href="#carga-transito"
+              ><span class="contents-num">02</span><span>Carga e trânsito</span
+              ><span class="contents-arrow" aria-hidden="true">↗</span></a
+            >
+            <a class="contents-link" href="#seguranca-equipe"
+              ><span class="contents-num">03</span
+              ><span>Segurança da equipe</span
+              ><span class="contents-arrow" aria-hidden="true">↗</span></a
+            >
+            <a class="contents-link" href="#meio-ambiente"
+              ><span class="contents-num">04</span><span>Meio ambiente</span
+              ><span class="contents-arrow" aria-hidden="true">↗</span></a
+            >
+            <a class="contents-link" href="#emergencias"
+              ><span class="contents-num">05</span
+              ><span>Em caso de emergência</span
+              ><span class="contents-arrow" aria-hidden="true">↗</span></a
+            >
+            <a class="contents-link" href="#comportamento"
+              ><span class="contents-num">06</span
+              ><span>Comportamento seguro</span
+              ><span class="contents-arrow" aria-hidden="true">↗</span></a
+            >
+          </nav>
+          <a class="contents-back" href="#inicio"
+            ><span aria-hidden="true">↑</span> Voltar ao início</a
+          >
+          <div class="contents-progress" aria-live="polite">
+            <span class="progress-icon" aria-hidden="true">✓</span
+            ><span id="check-progress">0 itens conferidos</span>
+          </div>
+        </aside>
+
+        <div class="chapters">
+          <article
+            class="chapter"
+            id="procedimentos"
+            aria-labelledby="title-procedimentos"
+          >
+            <div class="chapter-heading">
+              <span class="chapter-number">01</span>
+              <div>
+                <p class="section-kicker">PREPARAÇÃO</p>
+                <h2 id="title-procedimentos">Antes de partir</h2>
+              </div>
+            </div>
+            <p class="chapter-lede">
+              Uma viagem segura começa antes de ligar o motor. Confira o plano,
+              o veículo e as condições para seguir.
+            </p>
+            <div class="feature-image">
+              <img
+                src="assets/familia.jpeg"
+                alt="Ilustração de caminhoneiro e sua família; a segurança na viagem protege quem espera em casa"
+                loading="lazy"
+              /><span>O destino mais importante é voltar bem.</span>
+            </div>
+            <div class="advice-card advice-card--amber">
+              <span class="advice-icon" aria-hidden="true">!</span>
+              <div>
+                <strong>Não siga se algo não estiver certo.</strong>
+                <p>
+                  Avise o responsável e aguarde orientação quando houver falha
+                  no veículo, documentação pendente, carga insegura ou cansaço.
+                </p>
+              </div>
+            </div>
+            <h3 class="checklist-title">Conferência pré-viagem</h3>
+            <ul class="checklist">
+              <li>
+                <label
+                  ><input type="checkbox" data-check="pre-doc" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Confirme rota, destino, contatos e procedimento da
+                    operação.</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" data-check="pre-vehicle" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Verifique pneus, freios, luzes, espelhos e itens
+                    obrigatórios.</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" data-check="pre-load" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Confira documentação, peso, distribuição e amarração da
+                    carga.</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" data-check="pre-ready" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Esteja descansado, com cinto afivelado e celular
+                    guardado.</span
+                  ></label
+                >
+              </li>
+            </ul>
+            <div class="chapter-foot">
+              <span>CONFIRA TUDO ANTES DE SAIR</span
+              ><a href="#carga-transito"
+                >Próximo tema <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </article>
+
+          <article
+            class="chapter"
+            id="carga-transito"
+            aria-labelledby="title-carga"
+          >
+            <div class="chapter-heading">
+              <span class="chapter-number">02</span>
+              <div>
+                <p class="section-kicker">NA ESTRADA</p>
+                <h2 id="title-carga">Carga e trânsito</h2>
+              </div>
+            </div>
+            <p class="chapter-lede">
+              Dirija e manobre com atenção. Respeite os limites da via, do
+              veículo e da operação — cada decisão conta.
+            </p>
+            <div class="feature-image">
+              <img
+                src="assets/carga-transito.jpeg"
+                alt="Orientações ilustradas sobre carga e trânsito seguro para caminhoneiros"
+                loading="lazy"
+              /><span>Respeite os limites. Evite acidentes.</span>
+            </div>
+            <div class="tip-grid">
+              <div class="tip-card">
+                <span class="tip-index">01 / VELOCIDADE</span
+                ><strong>Ajuste à situação</strong>
+                <p>
+                  Obedeça à sinalização e reduza em curvas, chuva, baixa
+                  visibilidade e áreas de operação.
+                </p>
+              </div>
+              <div class="tip-card">
+                <span class="tip-index">02 / DISTÂNCIA</span
+                ><strong>Dê espaço para reagir</strong>
+                <p>
+                  Mantenha distância segura. Veículos carregados precisam de
+                  mais espaço para parar.
+                </p>
+              </div>
+              <div class="tip-card">
+                <span class="tip-index">03 / MANOBRAS</span
+                ><strong>Olhe antes de mover</strong>
+                <p>
+                  Verifique pontos cegos, use os espelhos e peça apoio de um
+                  orientador quando necessário.
+                </p>
+              </div>
+              <div class="tip-card">
+                <span class="tip-index">04 / CARGA</span
+                ><strong>Não exceda os limites</strong>
+                <p>
+                  Respeite a capacidade do veículo e confirme que a carga está
+                  distribuída e presa conforme o procedimento.
+                </p>
+              </div>
+            </div>
+            <div class="advice-card advice-card--dark">
+              <span class="advice-icon" aria-hidden="true">!</span>
+              <div>
+                <strong>Celular e direção não combinam.</strong>
+                <p>
+                  Não use o telefone enquanto dirige. Se precisar se comunicar,
+                  pare em local seguro primeiro.
+                </p>
+              </div>
+            </div>
+            <h3 class="checklist-title">Antes de retomar após uma parada</h3>
+            <ul class="checklist">
+              <li>
+                <label
+                  ><input type="checkbox" data-check="road-load" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Confira visualmente carga, lona e amarrações, quando
+                    aplicável.</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" data-check="road-surroundings" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Observe pessoas, veículos e obstáculos ao redor do
+                    caminhão.</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" data-check="road-route" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Retome somente quando estiver seguro e autorizado.</span
+                  ></label
+                >
+              </li>
+            </ul>
+            <div class="chapter-foot">
+              <a href="#indice"><span aria-hidden="true">↑</span> Índice</a
+              ><a href="#seguranca-equipe"
+                >Próximo tema <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </article>
+
+          <article
+            class="chapter"
+            id="seguranca-equipe"
+            aria-labelledby="title-equipe"
+          >
+            <div class="chapter-heading">
+              <span class="chapter-number">03</span>
+              <div>
+                <p class="section-kicker">NA UNIDADE</p>
+                <h2 id="title-equipe">Segurança da equipe</h2>
+              </div>
+            </div>
+            <p class="chapter-lede">
+              Na área de operação, siga as regras locais e as orientações dos
+              responsáveis. Segurança é compromisso de todos.
+            </p>
+            <div class="feature-image">
+              <img
+                src="assets/seguranca-equipe.jpeg"
+                alt="Ilustração com orientações de segurança para equipe em uma área de carga"
+                loading="lazy"
+              /><span>Respeite a área. Proteja sua vida.</span>
+            </div>
+            <div class="action-list">
+              <div>
+                <span class="action-number">A</span>
+                <p>
+                  <strong>Use os EPIs exigidos</strong><br />Capacete, calçado
+                  fechado e os demais itens determinados para a atividade.
+                </p>
+              </div>
+              <div>
+                <span class="action-number">B</span>
+                <p>
+                  <strong>Permaneça onde for seguro</strong><br />Não desça nem
+                  circule pela área sem autorização e orientação da unidade.
+                </p>
+              </div>
+              <div>
+                <span class="action-number">C</span>
+                <p>
+                  <strong>Mantenha distância da operação</strong><br />Não suba
+                  no caminhão nem se aproxime da carga durante o carregamento.
+                </p>
+              </div>
+              <div>
+                <span class="action-number">D</span>
+                <p>
+                  <strong>Combine sinais e comunicação</strong><br />Entenda
+                  quem orienta a manobra e interrompa a atividade se perder
+                  contato visual.
+                </p>
+              </div>
+            </div>
+            <div class="advice-card advice-card--amber">
+              <span class="advice-icon" aria-hidden="true">!</span>
+              <div>
+                <strong>A regra da unidade vem primeiro.</strong>
+                <p>
+                  Este guia é um apoio de consulta e não substitui treinamento,
+                  instruções do local ou procedimentos internos.
+                </p>
+              </div>
+            </div>
+            <div class="chapter-foot">
+              <a href="#indice"><span aria-hidden="true">↑</span> Índice</a
+              ><a href="#meio-ambiente"
+                >Próximo tema <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </article>
+
+          <article
+            class="chapter"
+            id="meio-ambiente"
+            aria-labelledby="title-ambiente"
+          >
+            <div class="chapter-heading">
+              <span class="chapter-number">04</span>
+              <div>
+                <p class="section-kicker">CUIDADO COM O ENTORNO</p>
+                <h2 id="title-ambiente">Meio ambiente</h2>
+              </div>
+            </div>
+            <p class="chapter-lede">
+              Uma operação responsável também cuida do lugar por onde passa.
+              Pequenas atitudes ajudam a evitar impactos.
+            </p>
+            <div class="feature-image">
+              <img
+                src="assets/meio-ambiente.jpeg"
+                alt="Cartaz ilustrado com recomendações de descarte correto e preservação ambiental"
+                loading="lazy"
+              /><span>Um ambiente limpo é responsabilidade de todos.</span>
+            </div>
+            <div class="environment-strip">
+              <span class="environment-mark" aria-hidden="true">+</span>
+              <div>
+                <strong>Faça a sua parte</strong>
+                <p>
+                  Separe os resíduos conforme a orientação local, use as
+                  lixeiras da unidade e mantenha a cabine e a área de trabalho
+                  limpas.
+                </p>
+              </div>
+            </div>
+            <div class="two-column-notes">
+              <div>
+                <h3>Faça</h3>
+                <ul class="simple-list">
+                  <li>Descarte resíduos nos locais indicados.</li>
+                  <li>Avise sobre vazamentos ou derramamentos.</li>
+                  <li>
+                    Siga as instruções para materiais e resíduos da operação.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>Evite</h3>
+                <ul class="simple-list">
+                  <li>Jogar lixo pela janela ou na estrada.</li>
+                  <li>Despejar líquidos no solo, bueiros ou cursos d'água.</li>
+                  <li>
+                    Limpar derramamentos sem orientação e proteção adequadas.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="chapter-foot">
+              <a href="#indice"><span aria-hidden="true">↑</span> Índice</a
+              ><a href="#emergencias"
+                >Próximo tema <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </article>
+
+          <article
+            class="chapter chapter--emergency"
+            id="emergencias"
+            aria-labelledby="title-emergencias"
+          >
+            <div class="chapter-heading">
+              <span class="chapter-number">05</span>
+              <div>
+                <p class="section-kicker">PARE. PROTEJA. AVISE.</p>
+                <h2 id="title-emergencias">Em caso de emergência</h2>
+              </div>
+            </div>
+            <p class="chapter-lede">
+              Mantenha a calma e priorize vidas. Não se exponha a riscos para
+              tentar resolver a situação sozinho.
+            </p>
+            <div class="feature-image">
+              <img
+                src="assets/emergencias.jpeg"
+                alt="Cartaz ilustrado com orientações para comunicar uma emergência e agir com segurança"
+                loading="lazy"
+              /><span
+                >Em caso de risco, aja rápido — sem se colocar em perigo.</span
+              >
+            </div>
+            <ol class="emergency-steps">
+              <li>
+                <span>01</span>
+                <div>
+                  <strong>Proteja o local, se for seguro</strong>
+                  <p>
+                    Pare em local seguro, sinalize conforme o treinamento
+                    recebido e mantenha distância do perigo.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <strong>Avise imediatamente</strong>
+                  <p>
+                    Comunique o responsável pela operação pelos canais
+                    definidos. Informe localização, tipo de ocorrência e se há
+                    feridos.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <strong>Acione ajuda adequada</strong>
+                  <p>
+                    Siga o plano de emergência da empresa e acione os serviços
+                    públicos de emergência conforme a situação.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span>04</span>
+                <div>
+                  <strong>Não agrave o risco</strong>
+                  <p>
+                    Não se aproxime de carga, fumaça ou produto desconhecido.
+                    Não tente resgate ou contenção sem treinamento e condições
+                    seguras.
+                  </p>
+                </div>
+              </li>
+            </ol>
+            <div class="emergency-callout">
+              <span class="callout-icon" aria-hidden="true">!</span>
+              <p>
+                <strong>Tenha à mão os contatos da operação.</strong><br />Antes
+                de sair, confira os contatos e o procedimento de emergência
+                fornecidos pela empresa. Não dependa apenas desta cartilha.
+              </p>
+            </div>
+            <div class="chapter-foot">
+              <a href="#indice"><span aria-hidden="true">↑</span> Índice</a
+              ><a href="#comportamento"
+                >Próximo tema <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </article>
+
+          <article
+            class="chapter"
+            id="comportamento"
+            aria-labelledby="title-comportamento"
+          >
+            <div class="chapter-heading">
+              <span class="chapter-number">06</span>
+              <div>
+                <p class="section-kicker">ESCOLHAS QUE PROTEGEM</p>
+                <h2 id="title-comportamento">Comportamento seguro</h2>
+              </div>
+            </div>
+            <p class="chapter-lede">
+              Respeito e atenção fazem parte da condução profissional. Sua
+              família espera por você — volte em segurança.
+            </p>
+            <div class="feature-image">
+              <img
+                src="assets/comportamento.jpeg"
+                alt="Cartaz ilustrado sobre comportamento respeitoso e decisões seguras na estrada"
+                loading="lazy"
+              /><span>Uma atitude segura protege muitas vidas.</span>
+            </div>
+            <div class="behavior-quote">
+              <span class="quote-mark" aria-hidden="true">“</span>
+              <blockquote>
+                O acidente acontece em segundos, mas a dor pode acompanhar uma
+                família por toda a vida.
+              </blockquote>
+              <span class="quote-credit"
+                >ANTES DE AGIR, PENSE EM QUEM ESPERA POR VOCÊ.</span
+              >
+            </div>
+            <div class="behavior-grid">
+              <div>
+                <span>01</span><strong>Respeite as pessoas</strong>
+                <p>
+                  Seja educado, siga as instruções da equipe e comunique-se com
+                  clareza.
+                </p>
+              </div>
+              <div>
+                <span>02</span><strong>Dirija descansado</strong>
+                <p>
+                  Faça pausas conforme as regras e avise se não estiver em
+                  condições de conduzir.
+                </p>
+              </div>
+              <div>
+                <span>03</span><strong>Zero álcool e drogas</strong>
+                <p>
+                  Não conduza sob efeito de álcool, drogas ou substâncias que
+                  prejudiquem sua atenção.
+                </p>
+              </div>
+              <div>
+                <span>04</span><strong>Proteja a operação</strong>
+                <p>
+                  Não faça fotos, filmagens ou uso de celular onde isso for
+                  proibido ou inseguro.
+                </p>
+              </div>
+            </div>
+            <h3 class="checklist-title">Antes de encerrar a viagem</h3>
+            <ul class="checklist">
+              <li>
+                <label
+                  ><input type="checkbox" data-check="end-place" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Estacione no local indicado e deixe veículo e carga em
+                    condição segura.</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" data-check="end-report" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Comunique ocorrências, danos ou desvios ao responsável pela
+                    operação.</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" data-check="end-rest" /><span
+                    class="custom-check"
+                    aria-hidden="true"
+                  ></span
+                  ><span
+                    >Descanse antes de voltar à estrada. Sua saúde também faz
+                    parte da segurança.</span
+                  ></label
+                >
+              </li>
+            </ul>
+            <div class="closing-banner">
+              <span class="closing-label"
+                >CARGA SEGURA · VOCÊ É PARTE DA EQUIPE</span
+              ><strong>Bom caminho.<br />Volte bem.</strong
+              ><a href="#inicio"
+                >Recomeçar a leitura <span aria-hidden="true">↑</span></a
+              >
+            </div>
+            <div class="chapter-foot">
+              <a href="#indice"
+                ><span aria-hidden="true">↑</span> Voltar ao índice</a
+              ><button class="clear-checks" type="button">
+                Limpar minhas marcações
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        class="brand brand--footer"
+        href="#inicio"
+        aria-label="CARGA Segura, início"
+        ><span class="brand-mark" aria-hidden="true"
+          ><span></span><span></span></span
+        ><span class="brand-copy"
+          ><strong>CARGA</strong><small>SEGURANÇA NA ESTRADA</small></span
+        ></a
+      >
+      <p>
+        Conteúdo de apoio. Siga sempre os procedimentos atualizados da sua
+        empresa, da unidade e das autoridades competentes.
+        <br />Criado por Richard Souza.
+      </p>
+      <a href="#indice">Índice <span aria-hidden="true">↑</span></a>
+    </footer>
+    <div class="mobile-index-bar">
+      <a href="#indice"
+        ><span class="mobile-index-symbol" aria-hidden="true">≡</span
+        ><span>Índice da cartilha</span
+        ><span class="mobile-index-up" aria-hidden="true">↑</span></a
+      >
+    </div>
+    <div class="sr-only" id="status-message" aria-live="polite"></div>
+  </body>
+</html>
